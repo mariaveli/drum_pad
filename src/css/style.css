@@ -1,0 +1,58 @@
+#root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#drum-machine{
+    margin: 100px;
+    background-color: #bfc4cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 350px;
+    border: 8px solid #4cdd46;
+}
+.drum-pads{
+    width: 350px;
+    background-color: #bfc4cc;
+}
+#display{
+    background-color: #6d696a;
+    margin: 50px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #4cdd46;
+}
+button{
+    width:100px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#6d696a;
+    border-color: #382f31;
+    box-shadow:2px 1px 1px 0.5px #382f31;
+    font-weight: bold;
+    color: #4cdd46;
+}
+button:disabled{
+    color: #bfc4cc;
+}
+.react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+
+}
+.sideDrum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
